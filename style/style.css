@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+    
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0px 47px;
+}
+
+.header__flex, .footer__flex, .about, .about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__title2{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 38px;
+    max-width: 572px;
+}
+
+.nav1__li{
+    display: inline-block;
+
+}
+
+.nav1__li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav1__link{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav1__link:hover{
+    color: black;
+    transition: 300ms;
+}
+
+.button{
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button__orange{
+    background: #FF7143;
+}
+
+.button__orange:hover{
+    background: #dd5b2f;
+    transition: 400ms;
+}
+
+.footer{
+    padding: 53px 0;
+}
+
+.about{
+    margin: 105px auto 85px;
+}
+
+.about2{
+    margin: 85px auto 75px;
+}
+
+.about__title{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191b;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+
+.about__text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 464px;
+    margin-bottom: 50px;
+}
+
+.button__violet{
+    background: #5454D4;
+}
+
+.button__transparent:hover{
+    background: #c9c9da;
+    transition: 400ms;
+}
+
+.button__violet:hover{
+    background: #35358b;
+    transition: 400ms;
+}
+
+.button__transparent{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.button__transparent2{
+    background: none;
+    color: #000000;
+    border: 1px solid #5454D4;
+    text-align: left;
+    margin-right: 40px;
+    width: 310.98px;
+    height: 60.51px;
+}
+
+.button__transparent2:hover{
+    background: #c9c9da;
+    transition: 400ms;
+}
